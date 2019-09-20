@@ -7,6 +7,7 @@
 <title>ColeccionVinilos2019 WebApp</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
 <link rel="icon" type="image/png"
 	href="<%out.print(getServletContext().getContextPath()); %>/assets/images/icon/discogs-vinyl-record-mark_64.png">
 <link rel="stylesheet" href="<%out.print(getServletContext().getContextPath()); %>/assets/css/bootstrap.min.css">
