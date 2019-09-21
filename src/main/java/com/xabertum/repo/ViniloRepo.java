@@ -10,6 +10,6 @@ import java.util.List;
 public interface ViniloRepo extends JpaRepository<Vinilo, String> {
 	
 	List<Vinilo> findByTituloVinilo(String tituloVinilo);
-	Vinilo findByFechaEdicion(String fechaEdicion);
+	List<Vinilo> findByFechaEdicion(String fechaEdicion);
 
 }
