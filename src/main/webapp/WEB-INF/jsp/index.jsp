@@ -48,9 +48,9 @@
 		<div class="sidebar-menu">
 			<div class="sidebar-header">
 				<div class="logo">
-					<a href="index.jsp"> <img
+					<%-- <a href="index.jsp"> <img
 						src="<%out.print(getServletContext().getContextPath()); %>/assets/images/icon/logo_discogs.png" alt="logo">
-					</a>
+					</a> --%>
 				</div>
 				<br>
 				<h6 class="text-center" style="color: aliceblue">
@@ -66,7 +66,7 @@
 							<li><a href="javascript:void(0)"> <i class="fa fa-tag"></i> <span>Mantenimientos</span>
 							</a>
 								<ul class="collapse">
-									<li><a href="<%out.print(getServletContext().getContextPath()); %>/jsp_app/categoria.jsp"> <i
+									<li><a href="<%out.print(getServletContext().getContextPath()); %>/categoria"> <i
 											class="fa fa-cubes"></i><span>Categorias</span>
 									</a></li>
 									<li><a href=""> <i class="fa fa-archive"></i><span>Productos</span>
