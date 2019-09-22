@@ -23,13 +23,13 @@ public class Controlador {
 		return "index";
 	}
 	
-	@GetMapping (value = "/categoria")
+	@GetMapping (value = "/vinilos")
 	public String categoriaString (Model model) {
 		model.addAttribute("vinilos", viniloRepo.findAll());
 		return "categoria";
 	}
 	
-	@GetMapping(value = "/categoria/{fechaEdicion}")
+	@GetMapping(value = "/vinilos/{fechaEdicion}")
 	public String getViniloByFechaEdicion(Model model, @PathVariable(value = "fechaEdicion") String fechaEdicion) {
 		model.addAttribute("fechaEdicion", viniloRepo.findByFechaEdicion(fechaEdicion));
 				

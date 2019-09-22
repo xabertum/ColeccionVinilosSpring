@@ -54,7 +54,7 @@
 				<div class="menu-inner">
 					<nav>
 						<ul class="metismenu" id="menu">
-							<li class="active">
+							<li>
 								<a href="/">
 									<i class="fa fa-home"></i>
 									<span>Inicio</span>
@@ -69,7 +69,7 @@
 									<li>
 										<a href="">
 											<i class="fa fa-cubes"></i>
-											<span>Categorias</span>
+											<span>Vinilos</span>
 										</a>
 									</li>
 									<li>
@@ -120,12 +120,12 @@
 							<div class="card-body">
 								<h6>FILTRADO:</h6>
 
-								<form action="" id="formCategoria">
+								<form action=""  id="formCategoria">
 									<div class="row mt-3">
-										<div class="form-group col-sm-9 col-12">
-											<input type="text" id="txtNombreCategoria" name="txtNombreCategoria" class="form-control form-control-sm" placeholder="NOMBRE">
+										<div class="form-group col-sm-11 col-12">
+											<input type="text" id="txtNombreCategoria" name="txtNombreCategoria" class="form-control form-control-sm" placeholder="{fechaEdicion}">
 										</div>
-										<div class="col-sm-3 col-12">
+										<div class="col-sm-1 col-12">
 											<button type="submit" id="btnBuscarCategoria" class="btn btn-primary btn-xs">
 												<i class="fa fa-search padding-right" aria-hidden="true"></i>
 												BUSCAR

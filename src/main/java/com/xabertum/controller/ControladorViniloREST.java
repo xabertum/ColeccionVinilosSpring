@@ -13,13 +13,13 @@ import com.xabertum.repo.ViniloRepo;
 
 @RestController
 @RequestMapping("/api")
-public class ControladorVinilo {
+public class ControladorViniloREST {
 	
 	@Autowired
 	ViniloRepo viniloRepo;
 	
 	@GetMapping("/vinilos")
-	public List<Vinilo> getAlVinilos() {
+	public List<Vinilo> getAllVinilos() {
 		return viniloRepo.findAll();
 	}
 	

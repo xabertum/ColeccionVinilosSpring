@@ -55,7 +55,7 @@
 				<div class="menu-inner">
 					<nav>
 						<ul class="metismenu" id="menu">
-							<li class="active">
+							<li>
 								<a href="/">
 									<i class="fa fa-home"></i>
 									<span>Inicio</span>
@@ -70,7 +70,7 @@
 									<li>
 										<a href="">
 											<i class="fa fa-cubes"></i>
-											<span>Categorias</span>
+											<span>Vinilos</span>
 										</a>
 									</li>
 									<li>
@@ -123,7 +123,7 @@
 								<form action="" id="formCategoria">
 									<div class="row mt-3">
 										<div class="form-group col-sm-9 col-12">
-											<input type="text" id="txtNombreCategoria" name="txtNombreCategoria" class="form-control form-control-sm" placeholder="NOMBRE">
+											<input type="text" id="txtNombreCategoria" name="txtNombreCategoria" class="form-control form-control-sm" placeholder="FECHA EDICION">
 										</div>
 										<div class="col-sm-3 col-12">
 											<button type="submit" id="btnBuscarCategoria" class="btn btn-primary btn-xs">
