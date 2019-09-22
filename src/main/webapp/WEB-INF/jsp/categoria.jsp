@@ -46,7 +46,7 @@
 	<div class="page-container">
 		<!-- sidebar menu area start -->
 		<div class="sidebar-menu">
-			<div class="sidebar-header">				
+			<div class="sidebar-header">
 				<h6 class="text-center" style="color: aliceblue">
 					<strong>ColeccionVinilos 2019</strong>
 				</h6>
@@ -129,7 +129,7 @@
 											<button type="submit" id="btnBuscarCategoria" class="btn btn-primary btn-xs">
 												<i class="fa fa-search padding-right" aria-hidden="true"></i>
 												BUSCAR
-											</button>											
+											</button>
 										</div>
 
 									</div>
@@ -148,7 +148,7 @@
 														<th>LUGAR COMPRA</th>
 														<th>PRECIO</th>
 														<th>FECHA COMPRA</th>
-														
+
 													</tr>
 												</thead>
 												<tbody id="tbodyCategoria">
@@ -161,7 +161,8 @@
 															<td>${vinilo.sello}</td>
 															<td>${vinilo.lugarCompra}</td>
 															<td>${vinilo.precio}</td>
-															<td>${vinilo.fechaCompra}</td>														</tr>
+															<td>${vinilo.fechaCompra}</td>
+														</tr>
 													</c:forEach>
 
 												</tbody>
@@ -172,22 +173,6 @@
 									</div>
 								</div>
 
-								<div class="row">
-									<div class="col-md-1 col-12">
-										<select class="form form-control-sm" id="sizePageCategoria" name="sizePageCategoria">
-											<option value="10">10</option>
-											<option value="15">15</option>
-											<option value="20">20</option>
-										</select>
-									</div>
-									<div class="col-md-11 col-12">
-										<nav>
-											<ul id="paginationCategoria" class="pagination pagination-sm justify-content-end">
-
-											</ul>
-										</nav>
-									</div>
-								</div>
 							</div>
 						</div>
 
