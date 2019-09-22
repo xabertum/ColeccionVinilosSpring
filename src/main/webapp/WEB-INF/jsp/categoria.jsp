@@ -46,13 +46,7 @@
 	<div class="page-container">
 		<!-- sidebar menu area start -->
 		<div class="sidebar-menu">
-			<div class="sidebar-header">
-				<div class="logo">
-					<%-- <a href="../index.jsp">
-						<img src="<%out.print(getServletContext().getContextPath());%>/assets/images/icon/logo_discogs.png" alt="logo">
-					</a> --%>
-				</div>
-				<br>
+			<div class="sidebar-header">				
 				<h6 class="text-center" style="color: aliceblue">
 					<strong>ColeccionVinilos 2019</strong>
 				</h6>
@@ -62,7 +56,7 @@
 					<nav>
 						<ul class="metismenu" id="menu">
 							<li class="active">
-								<a href="index.jsp">
+								<a href="/">
 									<i class="fa fa-home"></i>
 									<span>Inicio</span>
 								</a>

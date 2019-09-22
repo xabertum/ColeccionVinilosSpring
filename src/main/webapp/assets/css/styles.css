@@ -106,7 +106,7 @@
 	height: 100vh;
 	width: 280px;
 	overflow: hidden;
-	background: peachpuff;
+	background: rgb(1, 123, 255, 0.3);
 	box-shadow: 2px 0 32px rgba(0, 0, 0, 0.05);
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
