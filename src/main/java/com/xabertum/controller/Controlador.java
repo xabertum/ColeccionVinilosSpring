@@ -37,8 +37,7 @@ public class Controlador {
 	
 	@RequestMapping(value = "/vinilos/fechaEdicion", method = {RequestMethod.POST})
 	public String postViniloByFechaEdicion(Model model, @RequestParam(value = "fechaEdicion") String fechaEdicion) {
-		model.addAttribute("fechaEdicion", viniloRepo.findByFechaEdicion(fechaEdicion));
-				
+		model.addAttribute("fechaEdicion", viniloRepo.findByFechaEdicion(fechaEdicion));				
 		return "resultados";
 	}
 	
