@@ -119,8 +119,7 @@
 					<div class="col-12">
 						<div class="card">
 							<div class="card-body">
-								<h6>CATEGORIAS:</h6>
-
+								<h6>FILTRADO:</h6>
 								<form action="" id="formCategoria">
 									<div class="row mt-3">
 										<div class="form-group col-sm-9 col-12">
