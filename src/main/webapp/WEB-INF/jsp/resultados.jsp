@@ -115,6 +115,15 @@
 			<!-- header area end -->
 			<div class="main-content-inner">
 				<div class="row padding-top">
+					<div class="col-12 text-uppercase">
+						<a href="/">
+							Inicio /
+							<a href="/vinilos">Vinilos / </a>
+							<a href="#">Fecha Edición</a>
+						</a>
+					</div>
+				</div>
+				<div class="row padding-top">
 					<div class="col-12">
 						<div class="card">
 							<div class="card-body">
@@ -128,7 +137,7 @@
 											<button type="submit" id="btnBuscarCategoria" class="btn btn-primary btn-xs">
 												<i class="fa fa-search padding-right" aria-hidden="true"></i>
 												BUSCAR
-											</button>											
+											</button>
 										</div>
 
 									</div>
@@ -170,7 +179,7 @@
 										</div>
 
 									</div>
-								</div>								
+								</div>
 							</div>
 						</div>
 

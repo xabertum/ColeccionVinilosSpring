@@ -116,6 +116,15 @@
 			<!-- header area end -->
 			<div class="main-content-inner">
 				<div class="row padding-top">
+					<div class="col-12 text-uppercase">
+						<a href="/">
+							Inicio /
+							<a href="/vinilos">Vinilos</a>
+						</a>
+					</div>
+				</div>
+				
+				<div class="row padding-top">
 					<div class="col-12">
 						<div class="card">
 							<div class="card-body">
