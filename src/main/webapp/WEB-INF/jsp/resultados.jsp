@@ -8,7 +8,6 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>ColeccionVinilos2019 WebApp</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <link rel="icon" type="image/png" href="<%out.print(getServletContext().getContextPath());%>/assets/images/icon/discogs-vinyl-record-mark_64.png">
 <link rel="stylesheet" href="<%out.print(getServletContext().getContextPath());%>/assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="<%out.print(getServletContext().getContextPath());%>/assets/css/font-awesome.min.css">
@@ -17,7 +16,7 @@
 <link rel="stylesheet" href="<%out.print(getServletContext().getContextPath());%>/assets/css/owl.carousel.min.css">
 <link rel="stylesheet" href="<%out.print(getServletContext().getContextPath());%>/assets/css/slicknav.min.css">
 
-<!-- amchart css -->
+	<!-- amchart css -->
 <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 
 <!-- others css -->
@@ -26,7 +25,7 @@
 <link rel="stylesheet" href="<%out.print(getServletContext().getContextPath());%>/assets/css/styles.css">
 <link rel="stylesheet" href="<%out.print(getServletContext().getContextPath());%>/assets/css/responsive.css">
 
-<!-- modernizr css -->
+	<!-- modernizr css -->
 <script src="<%out.print(getServletContext().getContextPath());%>/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
 <!-- custom css -->
@@ -46,7 +45,7 @@
 	<div class="page-container">
 		<!-- sidebar menu area start -->
 		<div class="sidebar-menu">
-			<div class="sidebar-header">				
+			<div class="sidebar-header">
 				<h6 class="text-center" style="color: aliceblue">
 					<strong>ColeccionVinilos 2019</strong>
 				</h6>
@@ -149,20 +148,21 @@
 														<th>LUGAR COMPRA</th>
 														<th>PRECIO</th>
 														<th>FECHA COMPRA</th>
-														
+
 													</tr>
 												</thead>
 												<tbody id="tbodyCategoria">
-													<c:forEach var="vinilo" items="${vinilos}">
+													<c:forEach var="fecha" items="${fechaEdicion}">
 														<tr>
-															<td>${vinilo.ID}</td>
-															<td>${vinilo.numCatalogo}</td>
-															<td>${vinilo.tituloVinilo}</td>
-															<td>${vinilo.fechaEdicion}</td>
-															<td>${vinilo.sello}</td>
-															<td>${vinilo.lugarCompra}</td>
-															<td>${vinilo.precio}</td>
-															<td>${vinilo.fechaCompra}</td>														</tr>
+															<td>${fecha.ID}</td>
+															<td>${fecha.numCatalogo}</td>
+															<td>${fecha.tituloVinilo}</td>
+															<td>${fecha.fechaEdicion}</td>
+															<td>${fecha.sello}</td>
+															<td>${fecha.lugarCompra}</td>
+															<td>${fecha.precio}</td>
+															<td>${fecha.fechaCompra}</td>
+														</tr>
 													</c:forEach>
 
 												</tbody>
