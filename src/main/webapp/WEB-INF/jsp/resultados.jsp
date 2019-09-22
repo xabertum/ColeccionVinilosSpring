@@ -67,7 +67,7 @@
 								</a>
 								<ul class="collapse">
 									<li>
-										<a href="">
+										<a href="<%out.print(getServletContext().getContextPath());%>/vinilos">
 											<i class="fa fa-cubes"></i>
 											<span>Vinilos</span>
 										</a>
@@ -119,11 +119,10 @@
 						<div class="card">
 							<div class="card-body">
 								<h6>FILTRADO:</h6>
-
-								<form action=""  id="formCategoria">
+								<form action="/vinilos/fechaEdicion" id="formCategoria" method="POST">
 									<div class="row mt-3">
 										<div class="form-group col-sm-11 col-12">
-											<input type="text" id="txtNombreCategoria" name="txtNombreCategoria" class="form-control form-control-sm" placeholder="{fechaEdicion}">
+											<input type="text" id="fechaEdicion" name="fechaEdicion" class="form-control form-control-sm" placeholder="FECHA EDICION">
 										</div>
 										<div class="col-sm-1 col-12">
 											<button type="submit" id="btnBuscarCategoria" class="btn btn-primary btn-xs">

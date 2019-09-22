@@ -14,18 +14,18 @@ import com.xabertum.repo.ViniloRepo;
 @RestController
 @RequestMapping("/api")
 public class ControladorViniloREST {
-	
+
 	@Autowired
 	ViniloRepo viniloRepo;
-	
+
 	@GetMapping("/vinilos")
 	public List<Vinilo> getAllVinilos() {
 		return viniloRepo.findAll();
 	}
-	
+
 	@GetMapping("/vinilos/{fechaEdicion}")
 	public List<Vinilo> getViniloByFechaEdicion(@PathVariable(value = "fechaEdicion") String fechaEdicion) {
 		return viniloRepo.findByFechaEdicion(fechaEdicion);
 	}
-	
+
 }
