@@ -113,7 +113,16 @@
 				</div>
 			</div>
 			<!-- header area end -->
-			<div class="main-content-inner"></div>
+			<div class="main-content-inner">
+				<div class="card text-center card-index">
+					<div class="card-body">
+						<h5 class="card-title">Coleccion Vinilos 2019</h5>
+						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						<a href="/vinilos" class="btn btn-primary">Ver Colección</a>
+					</div>
+				</div>
+
+			</div>
 		</div>
 		<!-- main content area end -->
 		<!-- footer area start-->
