@@ -10,5 +10,10 @@ public interface ViniloRepo extends JpaRepository<Vinilo, String> {
 	
 	List<Vinilo> findByTituloVinilo(String tituloVinilo);
 	List<Vinilo> findByFechaEdicion(String fechaEdicion);
+	@Override
+	default List<Vinilo> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

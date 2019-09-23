@@ -130,10 +130,10 @@
 								<h6>FILTRADO:</h6>
 								<form action="/vinilos/fechaEdicion" id="formCategoria" method="POST">
 									<div class="row mt-3">
-										<div class="form-group col-sm-11 col-12">
+										<div class="form-group col-sm-10 col-12">
 											<input type="text" id="fechaEdicion" name="fechaEdicion" class="form-control form-control-sm" placeholder="FECHA EDICION">
 										</div>
-										<div class="col-sm-1 col-12">
+										<div class="col-sm-2 col-12">
 											<button type="submit" id="btnBuscarCategoria" class="btn btn-primary btn-xs">
 												<i class="fa fa-search padding-right" aria-hidden="true"></i>
 												BUSCAR
