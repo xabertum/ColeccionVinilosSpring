@@ -9,6 +9,7 @@ import com.xabertum.model.Vinilo;
 public interface ViniloRepo extends JpaRepository<Vinilo, String> {
 	
 	List<Vinilo> findByTituloVinilo(String tituloVinilo);
-	List<Vinilo> findByFechaEdicion(String fechaEdicion);	
+	List<Vinilo> findByFechaEdicion(String fechaEdicion);
+	
 
 }
