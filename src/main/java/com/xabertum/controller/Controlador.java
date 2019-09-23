@@ -15,8 +15,7 @@ import com.xabertum.repo.ViniloRepo;
 public class Controlador {
 
 	@Autowired
-	ViniloRepo viniloRepo;
-	
+	ViniloRepo viniloRepo;	
 	
 	@GetMapping (value = "/")
 	public String index () {
